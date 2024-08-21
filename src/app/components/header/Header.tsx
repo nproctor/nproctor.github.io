@@ -1,6 +1,6 @@
 "use client";
 
-import { BlockText, ExternalLink, HeaderContainer, RoundedImage, Container } from "@/app/StyledComponents";
+import { BlockText, ExternalLink, HeaderContainer, RoundedImage, Container } from "./Header.style";
 import { VscGithub  } from "react-icons/vsc";
 import { MdEmail } from "react-icons/md";
 

@@ -1,7 +1,5 @@
 "use client";
 
-import { BlockText, ExternalLink, HeaderContainer, RoundedImage, Container } from "@/app/StyledComponents";
-import Link from "next/link";
 import { StyledLink, StyledNav } from "./Navigation.style";
 
 const Navigation = () => {
