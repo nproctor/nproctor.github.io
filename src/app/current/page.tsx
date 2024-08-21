@@ -1,14 +1,14 @@
 import { Card, CardTitle } from "../style";
 
-const ProjectPage = () => {
+const CurrentPage = () => {
 
     return (
         <div>
-            <CardTitle>Example</CardTitle>
+            <CardTitle>Current Work Page</CardTitle>
             <Card> hello world </Card>
             
         </div>
     )
 }
 
-export default ProjectPage;
+export default CurrentPage;

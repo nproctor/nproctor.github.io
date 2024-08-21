@@ -5,8 +5,14 @@
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
-  --color-surface: #dddddd;
+  --color-surface: #cccccc;
   --color-on-surface: #000000;
+
+  --color-primary: #eeeeee;
+  --color-on-primary: #000000;
+
+  --color-secondary: #cccccc;
+  --color-on-secondary: #000000;
 
   --color-accent-one: #11aea6;
   --color-accent-two: #a771f1;
@@ -27,8 +33,8 @@ body {
 }
 
 body {
-  color: var(--color-on-surface);
-  background-color: var(--color-surface);
+  color: var(--color-on-primary);
+  background-color: var(--color-primary);
 }
 
 a {

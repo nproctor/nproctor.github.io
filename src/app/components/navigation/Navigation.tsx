@@ -1,14 +1,18 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import { StyledLink, StyledNav } from "./Navigation.style";
+import { useEffect, useState } from "react";
+import NavLink from "./NavLink";
 
 const Navigation = () => {
+
     return (
         <StyledNav>
-            <StyledLink href="/"> Home </StyledLink>
-            <StyledLink href="/projects">Projects</StyledLink>
-            <StyledLink href=""> Resume </StyledLink>
-            <StyledLink href=""> Current Work </StyledLink>
+            <NavLink href="/"> Home </NavLink>
+            <NavLink href="/projects">Projects</NavLink>
+            <NavLink href="/resume"> Resume </NavLink>
+            <NavLink href="/current"> Current Work </NavLink>
         </StyledNav>
     );
 }

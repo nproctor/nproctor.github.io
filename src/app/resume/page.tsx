@@ -1,14 +1,14 @@
 import { Card, CardTitle } from "../style";
 
-const ProjectPage = () => {
+const ResumePage = () => {
 
     return (
         <div>
-            <CardTitle>Example</CardTitle>
+            <CardTitle>Resume Page</CardTitle>
             <Card> hello world </Card>
             
         </div>
     )
 }
 
-export default ProjectPage;
+export default ResumePage;
