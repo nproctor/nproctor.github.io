@@ -7,6 +7,10 @@
 
   --color-surface: #dddddd;
   --color-on-surface: #000000;
+
+  --color-accent-one: #11aea6;
+  --color-accent-two: #a771f1;
+  --color-on-accent: #ffffff;
 }
 
 * {
@@ -19,6 +23,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 body {
