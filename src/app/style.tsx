@@ -1,12 +1,22 @@
 "use client";
 
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const Card = styled.div`
-    background: white;
-    padding: 20px;
+export const PageContainer = styled.div`
+    z-index: 10;
+    background-color: var(--color-primary);
+    position: sticky;
 `
 
-export const CardTitle = styled.div`
-    padding: 10px;
+export const BlockText = styled.p`
+    display: block;
+    padding: 3px;
+`
+
+export const ExternalLink = styled.a`
+    padding: 3px;
+
+    &:hover {
+        text-shadow: 0px 0px 10px;
+    }
 `

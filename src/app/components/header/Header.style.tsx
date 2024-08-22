@@ -31,17 +31,3 @@ export const RoundedImage = styled.img`
         display: none;
     }
 `
-
-export const BlockText = styled.p`
-    display: block;
-    padding: 3px;
-`
-
-export const ExternalLink = styled.a`
-    display: block;
-    padding: 3px;
-
-    &:hover {
-        text-shadow: 0px 0px 10px white;
-    }
-`

@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "./components/header/Header";
 import Navigation from "./components/navigation/Navigation";
 import StyledComponentsRegistry from "./registry";
+import { PageContainer } from "./style";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +24,9 @@ export default function RootLayout({
           <StyledComponentsRegistry>
           <Header/>
           <Navigation/>
-          {children}
+          <PageContainer>
+            {children}
+          </PageContainer>
           </StyledComponentsRegistry>
       </body>
     </html>
