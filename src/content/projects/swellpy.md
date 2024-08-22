@@ -1,6 +1,7 @@
 ---
 title: SwellPy
 github: https://github.com/nproctor/swellpy
+img: [swellpy.png]
 tags: ['python', 'anaconda', 'matplotlib', 'numpy', 'cython']
 ---
 
@@ -13,8 +14,4 @@ connection between the system’s ability to learn multiple memories and its beh
 amplitude is unclear. We present a model that allows us to efficiently study this behavior. In place of shear, particles swell to a given amplitude, and overlapping particles are
 repelled. This process repeats while the system is monitored. The critical amplitude for these systems
 corresponds to the densest packing of disks.
-
-|No Memory|Partial Memory|Full Memory|
-|------------|-------------|--------------|
-|<img width="200" height="200" src="/untrained.png"/>|<img width="200" height="200" src="/partiallyTrained.png"/>|<img width="200" height="200" src="/fullyTrained.png"/>|
 

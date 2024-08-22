@@ -15,3 +15,9 @@ export const ProjectLink = styled.a`
     font-style: italic;
     text-decoration: underline;
 `
+
+export const ProjectImg = styled.img`
+    max-width: 500px;
+    width: 50%;
+    min-width: 400px;
+`

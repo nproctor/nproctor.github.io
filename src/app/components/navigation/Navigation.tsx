@@ -12,7 +12,6 @@ const Navigation = () => {
             <NavLink href="/"> Home </NavLink>
             <NavLink href="/projects">Projects</NavLink>
             <NavLink href="/resume"> Resume </NavLink>
-            <NavLink href="/current"> Current Work </NavLink>
         </StyledNav>
     );
 }

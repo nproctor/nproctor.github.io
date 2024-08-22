@@ -29,6 +29,7 @@ export const getFile = (filename: string) => {
         description: data.description,
         link: data.link,
         github: data.github,
+        img: data.img,
         tags: data.tags
     }
     return {
