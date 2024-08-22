@@ -7,7 +7,7 @@ const ResumePage = () => {
     return (
         <div>
             <Card title="Education">
-                <SectionHeader>Bachelor's in Physics</SectionHeader>
+                <SectionHeader>Bachelors in Physics</SectionHeader>
                 <SectionDetail>California Polytechnic State University - San Luis Obispo, CA</SectionDetail>
                 <SectionDetail>September 2013 to December 2017</SectionDetail>
 
