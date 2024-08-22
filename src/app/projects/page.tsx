@@ -17,7 +17,7 @@ const ProjectPage = () => {
                         <div><ProjectLink href={f.data.link}>{f.data.link}</ProjectLink></div>
                         <div><ProjectLink href={f.data.github}>{f.data.github}</ProjectLink></div>
                         <br></br>
-                        {f.data.tags.map( (v) => <Tag>{v}</Tag>)}
+                        {f.data.tags.map( (v,i) => <Tag key={i}>{v}</Tag>)}
                     </Card>
                 )})}
         </div>
