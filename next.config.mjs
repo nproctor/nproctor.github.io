@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-import WithMDX from '@next/mdx'
+import createMDX from '@next/mdx'
 
 const nextConfig = {
     output: "export",
@@ -8,7 +8,7 @@ const nextConfig = {
     }
 };
 
-const withMDX = WithMDX({
+const withMDX = createMDX({
     options: {
       remarkPlugins: [],
       rehypePlugins: [],
