@@ -2,7 +2,7 @@
 title: Legendary
 link: https://be-legendary.vercel.app
 img: [/legendary.png]
-tags: ['typescript', 'react', 'next', 'leaflet', 'REST', 'Strava']
+tags: ['typescript', 'react', 'nextjs', 'leaflet', 'REST', 'Strava']
 ---
 
 Strava keeps a record of the number of time each athletes completes segments. Athletes that complete

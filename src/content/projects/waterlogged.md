@@ -3,7 +3,7 @@ title: Waterlogged
 github: https://github.com/nproctor/waterlogged
 link: https://waterlogged.vercel.app
 img: [waterlogged_map.png, waterlogged_details.png]
-tags: ['typescript', 'react', 'next', 'leaflet', 'USGS', 'GIS']
+tags: ['typescript', 'react', 'nextjs', 'leaflet', 'USGS', 'GIS']
 ---
 
 USGS Water Services data is combined with leaflet mapping packages to display real time data of 

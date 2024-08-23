@@ -18,7 +18,7 @@ export const StyledLink = styled(Link)`
 
     &[aria-current] {
         background-color: var(--color-primary);
-        text-decoration: underline;
+
         z-index: 1;
         box-shadow: 0px 0px 20px -2px black;
     }

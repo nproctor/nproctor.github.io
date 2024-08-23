@@ -6,13 +6,24 @@ import { ProjectData } from './projects';
 
 const getContentDirectory = () => {
     const root = process.cwd();
-    return path.join(root, `src/content/projects`)
-}
+    return path.join(root, `src/content`)
+;}
 
-export const getFilenames = () => {
+export const getContentFolders = () => {
     const directory = getContentDirectory();
     return globSync(
-        [directory + '/*.md'], 
+        [directory + `/*`],
+        {
+            absolute: false,
+            cwd: directory
+        }
+    );
+};
+
+export const getFilenames = (slug: string) => {
+    const directory = path.join(getContentDirectory());
+    return globSync(
+        [directory + `/**/${slug}/*.md`], 
         {
             absolute: false,
             cwd: directory,
@@ -38,7 +49,7 @@ export const getFile = (filename: string) => {
     }
 }
 
-export const getAllFiles = () => {
-    const filenames = getFilenames();
+export const getAllFiles = (slug: string) => {
+    const filenames = getFilenames(slug);
     return filenames.map( (filename) => {return getFile(filename)} );
 }

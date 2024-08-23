@@ -1,12 +1,27 @@
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { Card } from "@/app/components/card/Card"
-import { getAllFiles } from "../utils/getContents";
+import { getContentFolders, getAllFiles } from "../utils/getContents";
 import remarkGfm from 'remark-gfm';
 import { ProjectImg, ProjectLink, Tag } from "./page.style";
 
 
-const ProjectPage = () => {
-    const files = getAllFiles();
+interface Props {
+    params: {
+        slug : string
+    }
+}
+
+
+export async function generateStaticParams() {
+    const folders = getContentFolders();
+    return folders.map((f) => ({
+      slug: f
+    }))
+  }
+  
+
+const ContentPage = (props: Props) => {
+    const files = getAllFiles(props.params.slug);
     return (
         <div>
                 {files.map( (f, i) => {
@@ -25,4 +40,4 @@ const ProjectPage = () => {
     )
 }
 
-export default ProjectPage;
+export default ContentPage;

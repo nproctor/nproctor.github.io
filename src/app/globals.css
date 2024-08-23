@@ -42,3 +42,26 @@ a {
   text-decoration: none;
 }
 
+h1, h2, h3 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+ul, ol {
+  margin-left: 20px;
+  padding-bottom: 5px;
+}
+
+li {
+  padding-bottom: 5px;
+}
+
+em {
+  display: block;
+  color: gray;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+
+
+
